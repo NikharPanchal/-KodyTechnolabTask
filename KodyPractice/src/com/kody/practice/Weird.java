@@ -22,16 +22,16 @@ public class Weird {
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		System.out.print("Enter the number :- ");
-		int n = sc.nextInt();
+		int user_input = sc.nextInt();
 		// check number is odd
-		if (n % 2 != 0) {
+		if (user_input % 2 != 0) {
 			System.out.println("Weird");
 		} else {// number is even
-			if (n >= 2 && n <= 5) {
+			if (user_input >= 2 && user_input <= 5) {
 				System.out.println("Not Weird");
-			} else if (n >= 6 && n <= 20) {
+			} else if (user_input >= 6 && user_input <= 20) {
 				System.out.println("Weird");
-			} else if (n > 20) {
+			} else if (user_input > 20) {
 				System.out.println("Not Weird");
 			} else {
 				System.out.println("Negative number not allowed");
