@@ -1,0 +1,30 @@
+/*Write a program for Armstrong number*/
+package com.kody.practice;
+
+import java.util.Scanner;
+
+public class ArmstrongNumber {
+
+	private static Scanner sc;
+
+	public static void main(String[] args) {
+		sc = new Scanner(System.in);
+		int reminder = 0;
+		int answer = 0;
+		System.out.println("Enter the number :- ");
+		int input_no = sc.nextInt();
+		int temp = input_no;
+		while (input_no > 0) {
+			reminder = input_no % 10;
+			answer = answer + (reminder * reminder * reminder);
+			input_no = input_no / 10;
+		}
+		if (temp == answer) {
+			System.out.println(temp + " is Armstrong number");
+		} else {
+			System.out.println(temp + " is not Armstrong number");
+		}
+		sc.close();
+	}
+
+}
