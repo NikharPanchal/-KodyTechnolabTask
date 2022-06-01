@@ -1,4 +1,4 @@
-/*Write a program for Armstrong number*/
+/*Write a program to check Armstrong number*/
 package com.kody.practice;
 
 import java.util.Scanner;
@@ -15,8 +15,11 @@ public class ArmstrongNumber {
 		int input_no = sc.nextInt();
 		int temp = input_no;
 		while (input_no > 0) {
-			reminder = input_no % 10;
+			// Store the last digit
+			reminder = input_no % 10; 
+			// sum of that digit
 			answer = answer + (reminder * reminder * reminder);
+			// Remove last digit
 			input_no = input_no / 10;
 		}
 		if (temp == answer) {

@@ -20,7 +20,7 @@ public class PalindromeString {
 		}
 		System.out.println("Original String :: " + str);
 		System.out.println("Reverse String :: " + ans);
-
+		//Check whether string is equal or not
 		if (str.equals(ans)) {
 			System.out.println("\nGiven String is palindrome");
 		} else {

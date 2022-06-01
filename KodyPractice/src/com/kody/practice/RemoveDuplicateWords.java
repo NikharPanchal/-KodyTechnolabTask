@@ -18,7 +18,7 @@ package com.kody.practice;
 
 import java.util.Scanner;
 
-public class RemoveDuplicateString {
+public class RemoveDuplicateWords {
 
 	private static Scanner sc;
 

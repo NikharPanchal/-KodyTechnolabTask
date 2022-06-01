@@ -4,24 +4,28 @@ package com.kody.practice;
 import java.util.Scanner;
 
 class operation {
+	// Perform addition of two numbers
 	public void add(int no1, int no2) {
 		int ans = no1 + no2;
 		System.out.println("\nAddition is :" + ans);
 
 	}
 
+	// Perform subtraction of two numbers
 	public void sub(int no1, int no2) {
 		int ans = no1 - no2;
 		System.out.println("\nSubtraction is :" + ans);
 
 	}
 
+	// Perform division of two numbers
 	public void div(int no1, int no2) {
 		double ans = (double) no1 / no2;
 		System.out.println("\nDivision is :" + ans);
 
 	}
 
+	// Perform Product of two numbers
 	public void mul(int no1, int no2) {
 		int ans = no1 * no2;
 		System.out.println("\nMultiplication is :" + ans);

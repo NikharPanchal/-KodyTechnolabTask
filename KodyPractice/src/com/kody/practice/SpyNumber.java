@@ -12,6 +12,7 @@ public class SpyNumber {
 		sc = new Scanner(System.in);
 		System.out.println("Enter the number :- ");
 		int no = sc.nextInt();
+		//Store original number into temporary variable
 		int temp = no;
 		while (no != 0) {
 			rem = no % 10;

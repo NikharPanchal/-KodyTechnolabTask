@@ -1,4 +1,5 @@
 /*Given an integer, n, perform the following conditional actions:
+
  If n  is odd, print Weird
  If n  is even and in the inclusive range of  2 to 5 , print Not Weird
  If n  is even and in the inclusive range of  6 to 20 , print Weird
@@ -22,10 +23,10 @@ public class Weird {
 		sc = new Scanner(System.in);
 		System.out.print("Enter the number :- ");
 		int n = sc.nextInt();
-		// check number is even or not
+		// check number is odd
 		if (n % 2 != 0) {
 			System.out.println("Weird");
-		} else {
+		} else {// number is even
 			if (n >= 2 && n <= 5) {
 				System.out.println("Not Weird");
 			} else if (n >= 6 && n <= 20) {

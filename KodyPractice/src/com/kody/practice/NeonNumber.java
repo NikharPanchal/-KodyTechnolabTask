@@ -1,4 +1,4 @@
-/*Write a program to check neon number*/
+/*Write a program to check Neon number*/
 package com.kody.practice;
 
 import java.util.Scanner;
@@ -12,10 +12,12 @@ public class NeonNumber {
 		sc = new Scanner(System.in);
 		System.out.print("Enter the number :- ");
 		int no = sc.nextInt();
+		//Square of the given number
 		int square = no * no;
 		System.out.println("Square of " + no + " is :- " + square);
 		while (square > 0) {
 			reminder = square % 10;
+			//sum the square
 			sum = sum + reminder;
 			square = square / 10;
 		}
