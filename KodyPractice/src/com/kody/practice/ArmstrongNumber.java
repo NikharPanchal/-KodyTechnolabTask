@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArmstrongNumber {
 
 	private static Scanner sc;
-
+ 
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		int reminder = 0;
