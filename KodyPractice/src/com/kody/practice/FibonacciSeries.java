@@ -1,6 +1,7 @@
-/*Write a program to print Fibonacci series*/
+/**/
 package com.kody.practice;
 /**
+ * @objective Write a program to print Fibonacci series
  * @developer Nikhar Panchal
  */
 public class FibonacciSeries {

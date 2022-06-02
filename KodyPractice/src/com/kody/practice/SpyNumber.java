@@ -1,8 +1,8 @@
-/*Write a program to check spy number*/
 package com.kody.practice;
 
 import java.util.Scanner;
 /**
+ * @objective Write a program to check spy number
  * @developer Nikhar Panchal
  */
 public class SpyNumber {

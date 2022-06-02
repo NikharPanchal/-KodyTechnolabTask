@@ -1,8 +1,8 @@
-/*Write a program to check factorial pattern*/
 package com.kody.practice;
 
 import java.util.Scanner;
 /**
+ * @objective Write a program to check factorial pattern
  * @developer Nikhar Panchal
  */
 public class FactorialNumber {

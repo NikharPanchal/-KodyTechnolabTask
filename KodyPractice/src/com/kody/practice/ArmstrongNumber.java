@@ -1,9 +1,10 @@
-/*Write a program to check Armstrong number*/
+
 package com.kody.practice;
 
 import java.util.Scanner;
 
 /**
+ * @objective Write a program to check Armstrong number
  * @author Nikhar
  */
 public class ArmstrongNumber {

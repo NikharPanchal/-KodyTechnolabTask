@@ -1,9 +1,8 @@
-/*Write a program to check Palindrome string*/
 package com.kody.practice;
 
 import java.util.Scanner;
 /**
- * 
+ * @objective Write a program to check PalindromeString
  * @developer Nikhar Panchal
  */
 public class PalindromeString {

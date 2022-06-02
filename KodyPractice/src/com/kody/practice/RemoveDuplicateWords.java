@@ -1,23 +1,22 @@
-/*Remove same word in sentence. Take input about how many sentence  user  will enter  
-
-Sample Input
-Enter number of sentence  : 5
-Goodbye bye bye world world world
-Sam went went to to to his business
-Reya is is the the best player in eye eye game
-in inthe
-Hello hello Ab aB
-
-Sample Output
-Goodbye bye world
-Sam went to his business
-Reya is the best player in eye game
-in inthe
-Hello Ab*/
 package com.kody.practice;
 
 import java.util.Scanner;
 /**
+ * @objective Remove same word in sentence. Take input about how many sentence  user  will enter  
+	Sample Input
+	Enter number of sentence  : 5
+	Goodbye bye bye world world world
+	Sam went went to to to his business
+	Reya is is the the best player in eye eye game
+	in inthe
+	Hello hello Ab aB
+	
+	Sample Output
+	Goodbye bye world
+	Sam went to his business
+	Reya is the best player in eye game
+	in inthe
+	Hello Ab
  * @developer Nikhar Panchal
  */
 public class RemoveDuplicateWords {

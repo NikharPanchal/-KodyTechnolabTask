@@ -1,8 +1,8 @@
-/*Write a program to make simple calculator*/
 package com.kody.practice;
 
 import java.util.Scanner;
 /**
+ * @objective Write a program to make simple calculator
  * @developer Nikhar Panchal
  */
 class operation {

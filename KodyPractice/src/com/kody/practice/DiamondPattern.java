@@ -1,18 +1,17 @@
-/*Write a program to print following pattern
-     A 
-    B B 
-   C   C 
-  D     D 
- E       E 
-F         F 
- E       E 
-  D     D 
-   C   C 
-    B B 
-     A 
- */
 package com.kody.practice;
 /**
+ * @objective Write a program to print following pattern
+	     A 
+	    B B 
+	   C   C 
+	  D     D 
+	 E       E 
+	F         F 
+	 E       E 
+	  D     D 
+	   C   C 
+	    B B 
+	     A 
  * @developer Nikhar Panchal
  */
 public class DiamondPattern {

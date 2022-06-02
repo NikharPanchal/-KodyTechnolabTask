@@ -1,7 +1,5 @@
-/*Write a program to check prime numbers between 1 to 100*/
 package com.kody.practice;
 /**
- * 
  * @developer Nikhar Panchal
  */
 public class PrimeNumber {
