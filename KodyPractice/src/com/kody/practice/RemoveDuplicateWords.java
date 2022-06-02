@@ -17,7 +17,9 @@ Hello Ab*/
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * @developer Nikhar Panchal
+ */
 public class RemoveDuplicateWords {
 
 	private static Scanner sc;
@@ -25,9 +27,12 @@ public class RemoveDuplicateWords {
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		System.out.println("How many sentence do you want :- ");
+		
 		int n = sc.nextInt();
+		
 		String[] str = new String[n + 1];
 		System.out.println("Enter " + n + " sentense : ");
+		
 		for (int i = 0; i <= n; i++) {
 			str[i] = sc.nextLine();
 		}

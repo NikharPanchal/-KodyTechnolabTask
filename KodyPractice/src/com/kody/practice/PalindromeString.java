@@ -2,7 +2,10 @@
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @developer Nikhar Panchal
+ */
 public class PalindromeString {
 
 	private static Scanner sc;

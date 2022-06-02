@@ -1,4 +1,6 @@
 /*Given an integer, n, perform the following conditional actions:
+and check weird number
+
 
  If n  is odd, print Weird
  If n  is even and in the inclusive range of  2 to 5 , print Not Weird
@@ -14,7 +16,9 @@ Print Weird if the number is weird; otherwise, print Not Weird.
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * @developer Nikhar Panchal
+ */
 public class Weird {
 
 	private static Scanner sc;
@@ -22,8 +26,10 @@ public class Weird {
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
 		System.out.print("Enter the number :- ");
+
 		int user_input = sc.nextInt();
 		// check number is odd
+
 		if (user_input % 2 != 0) {
 			System.out.println("Weird");
 		} else {// number is even

@@ -12,7 +12,9 @@ F         F
      A 
  */
 package com.kody.practice;
-
+/**
+ * @developer Nikhar Panchal
+ */
 public class DiamondPattern {
 
 	public static void main(String[] args) {

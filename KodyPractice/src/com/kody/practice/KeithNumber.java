@@ -2,19 +2,23 @@
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * @developer Nikhar Panchal
+ */
 public class KeithNumber {
 
 	private static Scanner sc;
 
 	public static void main(String[] args) {
 		sc = new Scanner(System.in);
+		
 		int rem = 0;
-		System.out.println("Enter the number :- ");
 		int no = sc.nextInt();
 		int temp = no;
 		int[] a = new int[10];
 		int sum = 0;
+		
+		System.out.println("Enter the number :- ");
 		//store digit in reverse order
 		for (int i = 2; i >= 0; i--) {
 			rem = no % 10;

@@ -2,7 +2,9 @@
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * @developer Nikhar Panchal
+ */
 class operation {
 	// Perform addition of two numbers
 	public void add(int no1, int no2) {

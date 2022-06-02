@@ -2,7 +2,9 @@
 package com.kody.practice;
 
 import java.util.Scanner;
-
+/**
+ * @developer Nikhar Panchal
+ */
 public class SpyNumber {
 
 	private static Scanner sc;
