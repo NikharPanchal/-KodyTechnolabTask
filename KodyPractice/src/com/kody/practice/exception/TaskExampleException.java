@@ -5,17 +5,18 @@ package com.kody.practice.exception;
  * @Developer Nikhar
  * @Date 08-Jun-2022
  */
-public class DemoException {
+public class TaskExampleException {
 
 	public static void main(String[] args) {
 
 		try {
 
 			int[] array = new int[5];
-			array[6] = 10;
+			array[6] = 10;// Error - store value in 6 position
 
-		} catch (NullPointerException e) {
-			System.out.println("value is out of bound in array");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Array index out of bound");
 		}
+
 	}
 }
