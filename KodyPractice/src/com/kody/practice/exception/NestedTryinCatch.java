@@ -8,7 +8,7 @@ package com.kody.practice.exception;
 class Test {
 	static void genException() {
 		try {
-			System.out.println("Befor exception.");
+			System.out.println("Before exception.");
 			throw new ArrayIndexOutOfBoundsException("Hello");
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println(e.getMessage());

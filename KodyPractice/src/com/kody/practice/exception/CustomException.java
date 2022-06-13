@@ -5,14 +5,12 @@ package com.kody.practice.exception;
  * @Date 09-Jun-2022
  */
 class InvalidAgeException extends Exception {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 
 	// Custom Exception
 	public InvalidAgeException(String s) {
-		// Exception - throwable - getMessage()
+		// Exception - Throwable - getMessage
 		super(s);
 	}
 }
