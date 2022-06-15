@@ -10,7 +10,7 @@ class InvalidAgeException extends Exception {
 
 	// Custom Exception
 	public InvalidAgeException(String s) {
-		// Exception - Throwable - getMessage
+		// Exception - Throwable - getMessage()
 		super(s);
 	}
 }
