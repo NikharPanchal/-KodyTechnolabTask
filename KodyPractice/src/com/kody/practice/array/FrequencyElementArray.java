@@ -31,11 +31,11 @@ public class FrequencyElementArray {
 				for (int j = i + 1; j < n; j++) {
 					if (arr[i].equals(arr[j])) {
 						count++;
-						arr[j] = "%";// replace with 0 if element is repeat
+						arr[j] = "%";// replace with % if element is repeat
 					}
 				}
 
-				// print array if it not contain 0 element
+				// print array if it not contain % 
 				if (!arr[i].contains("%")) {
 					System.out.println(arr[i] + " Element Occured :: " + count + " Times");
 				}

@@ -1,6 +1,7 @@
 package com.kody.practice.array;
 
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 /**
  * @objective RegEx to remove instances of words that are repeated more than
@@ -39,7 +40,6 @@ public class RemoveDuplicateWords {
 		}
 
 		String pattern = "\\b(\\w+)\\b\\s*(?=.*\\b\\1\\b)";
-	
 		
 		String result[] = new String[n];
 		for (int i = 0; i < str.length; i++) {
