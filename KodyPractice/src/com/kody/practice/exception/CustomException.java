@@ -4,7 +4,7 @@ package com.kody.practice.exception;
  * @Developer Nikhar
  * @Date 09-Jun-2022
  */
-class InvalidAgeException extends Exception {
+class InvalidAgeException extends RuntimeException {
 	
 	private static final long serialVersionUID = 1L;
 

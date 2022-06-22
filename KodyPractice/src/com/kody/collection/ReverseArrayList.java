@@ -31,7 +31,7 @@ public class ReverseArrayList {
 		}
 
 		Collections.reverse(arrylist);
-
+  
 		for (String i : arrylist) {
 			System.out.println(i);
 		}
