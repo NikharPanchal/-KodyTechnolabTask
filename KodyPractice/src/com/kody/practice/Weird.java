@@ -42,6 +42,5 @@ public class Weird {
 				System.out.println("Negative number not allowed");
 			}
 		}
-		sc.close();
 	}
 }

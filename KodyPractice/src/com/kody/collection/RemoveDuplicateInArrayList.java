@@ -7,10 +7,10 @@ import java.util.Scanner;
 import java.util.Set;
 
 /**
- * @objective Write a program to Remove duplicates from ArrayList in Java?
- * @Developer Nikhar
- * @Date 20-Jun-2022
- */
+* @objective Write a program to Remove duplicates from ArrayList in Java?
+* @Developer Nikhar
+* @Date 20-Jun-2022
+*/
 public class RemoveDuplicateInArrayList {
 
 	private static Scanner sc;

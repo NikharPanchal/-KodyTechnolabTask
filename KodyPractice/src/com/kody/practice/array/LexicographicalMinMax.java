@@ -1,5 +1,6 @@
 package com.kody.practice.array;
 
+import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -27,6 +28,10 @@ import java.util.Scanner;
  */
 public class LexicographicalMinMax {
 
+	public void add() throws FileNotFoundException{
+		
+	}
+	
 	public static void main(String[] args) {
 		int len = 0;
 
